@@ -1,0 +1,212 @@
+@charset "UTF-8";
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0%;
+  background-color: black;
+  color: white;
+}
+
+.bars-options {
+  display: none;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.header-container {
+  background-color: #00000052;
+  height: 50px;
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+.header-container .title {
+  height: 30px;
+  width: auto;
+  margin-right: 45px;
+}
+.header-container .title img {
+  height: 100%;
+}
+.header-container nav {
+  color: white;
+}
+.header-container nav span {
+  margin-right: 18px;
+}
+
+.serie-gender {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 300px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.serie-gender .serie-gender-type {
+  margin-left: 50px;
+}
+.serie-gender .serie-gender-gender {
+  font-size: 18px;
+}
+
+.background {
+  width: 100%;
+  height: 500px;
+  background-image: url("./Imagenes/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.background .background-text {
+  margin-left: 50px;
+  padding-top: 70px;
+  width: 400px;
+}
+.background .background-name {
+  width: 100%;
+  font-display: flex;
+  flex-direction: column;
+}
+.background .background-name .background-title-description {
+  font-size: 30px;
+  height: 50px;
+}
+.background .background-name .background-description-percent {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.background .background-name .background-description-percent .background-coincidence {
+  color: green;
+}
+.background .background-name .background-description-percent .background-description-year {
+  font-size: 18px;
+}
+.background .background-name .background-description-percent .background-description-pg {
+  width: 40px;
+  height: 25px;
+  border: 1px solid white;
+  font-size: 18px;
+}
+.background .background-name .background-description-percent .background-description-seasons {
+  font-size: 18px;
+}
+.background .background-name .background-resume {
+  margin-bottom: 24px;
+}
+.background .background-name .background-name-button {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .background-name .background-name-button .button-description {
+  font-size: 14px;
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+  padding: 10px 30px;
+  background-color: red;
+}
+.background .background-name .background-name-description-price {
+  margin-bottom: 24px;
+}
+.background .background-name .background-name-description-text {
+  margin-bottom: 24px;
+}
+.background .background-name .background-title {
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+.background .background-name .background-original {
+  font-size: 15px;
+}
+.background .background-name .button {
+  font-size: 14px;
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+  padding: 10px 30px;
+  background-color: #00000052;
+}
+.background .background-name .button-ponderation {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.background .background-name .button-ponderation .button-ponderation-positive {
+  background-color: rgba(0, 0, 0, 0.39);
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid black;
+}
+.background .background-name .background-name-description-price {
+  display: flex;
+  justify-content: space-between;
+}
+.background .background-name .background-name-description-price .background-name-description-price-logo {
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.281);
+  border-radius: 50%;
+  padding: 20px;
+  border: 1px solid black;
+}
+.background .background-name .background-name-description-text p {
+  margin: 0;
+}
+.background .background-name-title {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.background-description-options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.background-description-options .background-description-option-descrop {
+  margin-right: 15px;
+}
+.background-description-options .background-description-option-descrop .linetime {
+  width: 190px;
+  height: 5px;
+  background-color: red;
+}
+
+.section-line {
+  width: calc(100%-100px);
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.section-line .title-text {
+  width: 100%;
+  height: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+.section-line .section-line-img {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.section-line .section-line-img .img-pequeña {
+  margin-right: 4px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+  body .header-container {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
